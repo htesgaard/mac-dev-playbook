@@ -2,3 +2,5 @@
 - name: geerlingguy.dotfiles
 - name: geerlingguy.homebrew
 - name: geerlingguy.mas
+- name: htesgaard.todo
+  src: https://github.com/htesgaard/htesgaard.todo.git
