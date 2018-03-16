@@ -1,0 +1,53 @@
+---
+dotfiles_repo: https://github.com/htesgaard/dotfiles.git
+dotfiles_repo_local_destination: ~/Google Drive//Development/GitHub/dotfiles
+
+pip_packages:
+  - name: powerline-shell
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - bash-completion
+  - bash-completion@2 # completion for docker, git etc.
+  - chromedriver
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - go
+  - gpg
+  - hub
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - ssh-copy-id
+  - cowsay
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+
+homebrew_cask_apps:
+  - docker
+  # - dropbox # i dont use dropbox
+  # - fing # Download link keeps getting changed, d'oh!
+  - firefox
+  - google-chrome
+  - handbrake
+  - licecap
+  - limechat
+  - macvim
+  - sequel-pro
+  - skitch
+  - slack
+  - sublime-text
+  - transmit
+  - vagrant
+  - virtualbox
