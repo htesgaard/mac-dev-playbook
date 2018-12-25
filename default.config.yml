@@ -20,7 +20,6 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - chromedriver
   - doxygen
   - gettext
   - gifsicle
@@ -46,14 +45,13 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
-  - homebrew/php
+  - homebrew/cask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - chromedriver
   - docker
   - dropbox
-  # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
   - handbrake
@@ -66,7 +64,6 @@ homebrew_cask_apps:
   - sublime-text
   - transmit
   - vagrant
-  - virtualbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
