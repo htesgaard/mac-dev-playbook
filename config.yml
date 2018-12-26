@@ -1,7 +1,7 @@
 ---
 dotfiles_repo: https://github.com/htesgaard/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Google Drive/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/projects/ansible/dotfiles
 
 pip_packages:
   - name: powerline-shell
