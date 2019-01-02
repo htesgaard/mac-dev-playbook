@@ -35,6 +35,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - vagrant-completion
 
 homebrew_cask_apps:
   - docker
@@ -53,3 +54,4 @@ homebrew_cask_apps:
   - transmit
   - vagrant
   - virtualbox
+  - vagrant-manager

@@ -39,6 +39,8 @@
     - include: tasks/extra-packages.yml
       tags: ['extra-packages']
 
+    - include: tasks/docker-bash-completion.yml
+
     - name: Run configured post-provision ansible task files.
       include: "{{ outer_item }}"
       loop_control:
