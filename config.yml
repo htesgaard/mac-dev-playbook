@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - vagrant-completion
+  - python@2
 
 homebrew_cask_apps:
   - docker
